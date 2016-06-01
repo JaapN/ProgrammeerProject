@@ -1,11 +1,9 @@
-Growing up in a digital era: measures of child-being, their relationship with each other, and their relationship with the digital era – how does the number of Internet users of a country correlate with the different measures of child well-being?
+Exploration of educational field distribution by mapping of average student skills, employment rate, personal earnings and life satisfaction – investigating educational profile correlations with seemingly generic variables?
 @author: Jaap Nieuwenhuizen
 
 •	what problem will be solved for the user:
 
-The user will be able to explore the child well-being data from the OECD website with a map colored by percentage of Internet users per country and barcharts with the full child well-being data of the respective country. The map allows the user to select a country based on the number of Internet users it has and explore its child well-being data in more detail. It implies a connection between child well-being and Internet; this is all but confirmed however. The linked barcharts nonetheless attempt to allow the user to explore the relationship between Internet users (or Internet infrastructure more in general) and measures of child well-being as well. Arguably more interesting is that there will also be more graphs displaying the relationship between the different measures of child well-being, such as literacy and birth weight.
-
-I'm still fairly uncertain how intuitive this map-barchart combination is for a user however... a more concisive connection between child well-being and Internet has to be established first. Or perhaps different data has to be used to color the worldmap with.
+The user will be able to colour the world/Europe with a variety of predictors. There are no assumptions about the correlation and causation direction. The data is from the OECD website, the predictors being measures of Better Life Index. When clicking on a country, full barchart information will pop up with the full graduate field distribution data of the respective country (if there is any data). The map allows the user to select a country based on the number of the selected general variable, and explore its child well-being data in more detail. It implies a connection between the general variable and the country's grad field distribution; this is all but confirmed however. The linked barcharts nonetheless attempt to allow the user to explore the relationship between the selected general variable and graduate field distribution. Arguably more interesting is that there will also be more graphs displaying the relationship between the different general better life index measures.
 
 •	what features will be available to solve the problem:
 
@@ -18,10 +16,8 @@ See doc.
 •	what data sets and data sources will you need, how you will get the data into the right form for your app:
 
 http://stats.oecd.org/index.aspx
-Child well-being: http://stats.oecd.org/Index.aspx?DataSetCode=BLI
-For the map (Internet): http://www.internetlivestats.com/internet-users-by-country/
 
-Export CSV files and reformat those.
+Export custom CSV files and reformat those.
 
 •	what separate parts of the application can be defined (decomposing the problem) and how these should work together:
 
@@ -34,30 +30,15 @@ None?
 
 •	technical problems or limitations that could arise during development and what possibilities you have to overcome these:
 
-Getting the barcharts to work in linked view. Implementing linked views. Adding an operative select menu for building and displaying various graphs.
+Getting the barcharts to work in linked view. Implementing linked views. Adding an operative select menu for building and displaying various graphs. But especially converting the data to usable data structures.
 
 •	a review of similar applications or visualizations in terms of features and technical aspects (what do they offer? how have they implemented it?):
 
-The last assignment of Data Processing is relatively comparable in concept.
+The last assignment of Data Processing is fairly comparable conceptually.
 
 Minimum viable product
 Be sure to make clear which parts of the application define the minimum viable product (MVP) and which parts may be optional to implement.
 
-The MVP should be a map colored by Internet users (in percentages), barcharts when clicking on a country, and at least one graph (it should offer a select menu to pick which variables to plot against each other).
+The MVP should be a map colored by 4 variables, barcharts when clicking on a country, and at least one graph (it should offer a select menu to pick which variables to plot against each other).
 
 ----------
-
-ALTERNATIVE:
-(Alternative idea: The user will be able to explore and analyse possible correlates (most notably, percentage of Internet users) with educational field of study in all countries of the world. It will display whether a high number of Internet users (implying accessible Internet) stimulates different life choices. More importantly, the graph will explore whether STEM disciplines (Science, Technology, Engineering, Mathematics) are more common in countries with a high number of Internet users. After all, the Internet is a huge source of information, and is gradually getting more and more important. The same map will also be constructed by GDP instead of Internet users as well.).
-
-(Alternative: Clicking on a country pops up a barchart with the study-field distribution data for the respective country. The colors of the colored map will depend on the percentage of Internet users.).
-
-(Alternative: an interactive map and barcharts. Perhaps even two maps, and perhaps even graphs as well. But the latter aren’t part of the MVP.)
-
-(Alternative: Map (colored by Internet users) and linked barcharts. Possibly two maps (Internet users and GDP). Perhaps even graphs (between STEM/Science, math and computing + engineering and Internet users / GDP).).
-
-(Alternative: Quite uncertain as of now. Perhaps the formatting of the csv files to usable data objects. And getting nice design to display the data with…
-
-Actually, being able to select the data I need to draw the graphs with; this probably isn’t that easy to do, as there are a lot of redundant columns and rows in my data as well.).
-
-(Alternative: The world map (by Internet users) with linked views to explorative barchart (field of study) defines the MVP.).
