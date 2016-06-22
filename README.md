@@ -1,3 +1,5 @@
+All actual programming code can be found in a different repository. For the implementation please go to: https://github.com/JaapN/Project
+
 Exploration of educational field distribution by mapping of average student skills, employment rate, personal earnings and life satisfaction – investigating educational profile correlations with seemingly generic variables?
 @author: Jaap Nieuwenhuizen
 
