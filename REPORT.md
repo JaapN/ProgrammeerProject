@@ -28,9 +28,7 @@ Gosia Migut
 
 	De gebouwde applicatie staat een gebruiker toe om twee gekozen datasets volledig te exploreren, en om te zoeken naar eventuele onderlinge verbanden tussen variabelen van deze datasets. Het vertelt geen verhaal, en behoort dientengevolge een objectieve, neutrale uitstraling te hebben, met voldoende duidelijke gebruikersaanwijzingen en mogelijkheden. De gekozen kleuren illustreren deze doelstelling: rustig en neutraal, maar ook duidelijk en intuïtief.
 
-	De applicatie beschikt over vier (verbonden) visualisaties die geselecteerd kunnen worden met dropdown menu’s: datakaarten, scatterplots, lijngrafieken en barcharts. Met deze vier visualisaties is het mogelijk om de data van een enkele dataset afzonderlijk te exploreren (m.n. met de datakaarten en barcharts), maar ook om verbanden tussen twee verschillende datasets in volledigheid te ontdekken (m.b.v. scatterplots en lijngrafieken). Een screenshot van het product zoals het wordt weergegeven als het geladen wordt is als volgt:
-
-	*SCREENSHOT
+	De applicatie beschikt over vier (verbonden) visualisaties die geselecteerd kunnen worden met dropdown menu’s: datakaarten, scatterplots, lijngrafieken en barcharts. Met deze vier visualisaties is het mogelijk om de data van een enkele dataset afzonderlijk te exploreren (m.n. met de datakaarten en barcharts), maar ook om verbanden tussen twee verschillende datasets in volledigheid te ontdekken (m.b.v. scatterplots en lijngrafieken). Een screenshot van het product zoals het wordt weergegeven als het geladen wordt is de onderstaande afbeelding.
 
 	De datakaarten geven in één oogopslag voor alle landen de waarde van een Better Life Index variabele weer. De waarde op de geselecteerde BLI variabele wordt per land gebruikt om het respectievelijke land mee in te kleuren. Het weergeven van een datakaart gebeurt ‘onchange’: het veranderen van de waarde in het select menu van het dropdown menu van de datakaarten ertoe leidt dat de gekozen datakaart direct weergegeven wordt. Door gebruik van een intuïtief kleurenpalet kan de gebruiker zien welke landen extreem hoog, zeer hoog, hoog, gemiddeld, laag, zeer laag en extreem laag scoren op de geselecteerde variabele. Stel bijvoorbeeld dat de gebruiker wil weten welke landen een hoge mate van werkgelegenheid kennen. Deze datakaarten zijn dan wellicht het beste middel om zulke vragen te beantwoorden. De gebruiker kan vervolgens over een land van interesse scrollen om de tooltip te laten weergeven die het geselecteerde land en de exacte waarde voor de geselecteerde variabele tonen. Door te klikken op een land wordt een barchart weergegeven met data van de andere dataset. Op deze manier kan dus ook naar verbanden gezocht worden, alleen is het hier niet geschikt voor. Deze datakaarten dienen met name om alle objectieve informatie zo volledig en duidelijk mogelijk weer te geven.
 
@@ -40,6 +38,7 @@ Gosia Migut
 
 	De lijngrafieken zijn vergelijkbaar met de scatterplots, maar hebben de potentie om een niet-lineair verband te openbaren. De datapunten van deze lijngrafieken worden ‘on hover’ geselecteerd: als gescrold wordt over een datapunt, dan wordt het respectievelijke datapunt automatisch geselecteerd en in tekst beschreven, maar ook de barchart wordt direct gemaakt. Wat betreft functionaliteit zijn er dus wel degelijk verschillen tussen de lijngrafieken en de scatterplots. Dit biedt de gebruiker meer mogelijkheden om verbanden naar eigen voorkeur te onderzoeken. Voor een product met een exploratieve doelstelling is dit mijns inziens een meerwaarde.
 
+![#SCREENSHOT](http://image.prntscr.com/image/b9250e7a16544bbc82089d10476e9348.png)
 
 ######Technische beschrijving
 
