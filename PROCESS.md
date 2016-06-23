@@ -1,4 +1,4 @@
-Logboek, Jaap Nieuwenhuizen
+### Logboek, Jaap Nieuwenhuizen
 
 ###### Maandag (week 1)
 - Proposal bedenken en bespreken.
