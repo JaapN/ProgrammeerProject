@@ -4,7 +4,7 @@
 
 #####@author: Jaap Nieuwenhuizen
 
-######!!! See REPORT.md for a more proper and extensive description and introduction of the product as implemented. Note that much of what has been written in this document was conceptualised 4 weeks ago, even though the subject has been changed by then. So, once again, for a more proper introduction and description of the product, view REPORT.md.
+######!!! See REPORT.md for a more proper and extensive description and introduction of the product as implemented. Note that much of what has been written in this document was conceptualised 4 weeks ago, even though the subject has been changed by then. So, once again, for a more proper introduction and description of the product, view REPORT.md !!!
 
 Previous title:
 'Exploration of educational field distribution by mapping of average student skills, employment rate, personal earnings and life satisfaction – investigating educational profile correlations with seemingly generic variables?'
