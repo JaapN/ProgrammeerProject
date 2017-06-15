@@ -64,6 +64,7 @@ Gosia Migut
 
 
 ######Proces en uitdagingen
+
 	De belangrijkste implementatie was het verbinden van een geselecteerde indicator op de menuknoppen aan het script waarmee een visualisatie gemaakt moest worden. Dit is niet alleen eleganter, maar ook noodzakelijk, omdat beide datasets veel variabelen bevatten en dus nauwelijks alle combinaties hard-coded geïmplementeerd kunnen worden. Dit werd wel in eerste instantie geprobeerd. In de tweede week heb ik dan ook mijn visualisatie hard-coded weten te implementeren, met enige bugs/lelijkheden en zonder dropdown menu’s.
 
 	De eerste poging tot automatisering leidde ertoe dat ik zeer veel knoppen aanmaakte die elk dezelfde functie opriepen met een andere hard-coded indicator en tekst. Ook nadat ik dropdown menu’s geïmplementeerd had, had ik een dergelijke button/knop om een functie aan te roepen. Dit heb ik nog steeds voor de datakaarten, maar was niet mogelijk voor het plotten van twee variabelen. Alhoewel er aan een functie wel een string-input mee gegeven kon worden, was het niet mogelijk deze string als twee afzonderlijke variabelen te herkennen, dus moesten deze in menu.js gesplit worden en opgeslagen worden in afzonderlijke variabelen. Het huidige concept is echter zeer geschikt voor dataexploratie. Al met al heb in de loop van het project nog veel verbeteringen weten te bedenken en te implementeren die ik niet in de eerste week nog niet bedacht had.
